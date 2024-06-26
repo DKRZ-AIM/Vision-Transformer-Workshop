@@ -1,0 +1,15 @@
+name: vit_workshop_2024
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel
+  - ipywidgets
+  - jupyterlab
+  - matplotlib
+  - pandas
+  - python=3.8
+  - scikit-learn
+  - scipy
+  - setuptools
+  - pip
