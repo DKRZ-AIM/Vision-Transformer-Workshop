@@ -6,6 +6,7 @@ src/vit_model/data_prep_pretrained.py
 model
 src/vit_model/main.py
 vision_transformer.egg-info
+tr.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
