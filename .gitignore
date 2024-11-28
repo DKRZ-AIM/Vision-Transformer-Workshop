@@ -149,9 +149,3 @@ cython_debug/
 
 # mac os
 .DS_Store
-
-
-# To do
-1. Introduction to PyTorch.ipynb
-2. Self Attention.ipynb
-3. Vision Transformer.ipynb
