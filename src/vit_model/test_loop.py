@@ -4,7 +4,7 @@ from typing import Tuple
 
 def test_loop(model: torch.nn.Module,
               loss_fn: torch.nn.Module,
-              optimizer: torch.optim.Optimizer,
+              optimizer: "torch.optim.Optimizer",
               device: torch.device,
               test_dataloader: torch.utils.data.DataLoader[Tuple[torch.Tensor, torch.Tensor]]):
 

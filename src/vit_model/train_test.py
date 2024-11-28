@@ -32,7 +32,7 @@ def train_test(model, lr, epochs, train_dataloader, test_dataloader, device):
     loss_fn = nn.CrossEntropyLoss()  # for multi class (i.e out_features > 1) and no need for sigmoid / softmax
     # loss_fn = nn.BCEWithLogitsLoss()
     # Create an optimizer
-    optimizer = torch.optim.Adam(params=model.parameters(), lr=lr,
+    optimizer = torch.optim.adamw.AdamW.(params=model.parameters(), lr=lr,
                                  betas=(0.9, 0.999), weight_decay=0.3)  # according to the paper
     for epoch in tqdm(range(epochs)):
         epoch_count.append(epoch)
