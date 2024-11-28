@@ -23,7 +23,7 @@ def test_loop(model: torch.nn.Module,
         float: The average accuracy on the test dataset.
     """
 
-    # Put the model in evaluation mode
+    # Put the model in evaluation mode.
     model.eval()
 
     test_loss, test_acc = 0.0, 0.0
